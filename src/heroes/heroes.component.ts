@@ -1,4 +1,5 @@
-import { Component} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { Hero } from '../app/hero';
 
 
 @Component({
@@ -8,5 +9,8 @@ import { Component} from '@angular/core';
 })
 
 
-export class HeroesComponent { hero = 'Windstorm'; }
+export class HeroesComponent { 
 
+  hero: 
+  
+  Hero = { id:1, name:'Windstorm'}}
