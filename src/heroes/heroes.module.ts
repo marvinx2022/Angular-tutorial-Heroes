@@ -5,7 +5,7 @@ import { HeroesComponent } from './heroes.component';
 
 @NgModule({
   imports: [],
-  exports: [HeroesComponent],
+  exports: [],
   declarations: [HeroesComponent],
   providers: [],
 })

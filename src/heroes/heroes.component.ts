@@ -9,17 +9,15 @@ import { Hero } from '../app/hero';
 })
 
 
-export class HeroesComponent implements OnInit  { 
-
-  hero: 
-  
-  Hero = { id:1, name:'Windstorm'};
-
+export class HeroesComponent implements OnInit {
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 
 }
